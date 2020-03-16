@@ -9,18 +9,18 @@ This repo contains templates for the different types of challenges:
 
 Each template has two versions:
 
-  - a text file
-  - a lab manual export
+  - Text file (.txt)
+  - Lab manual export (.zip)
 
-#Usage
+# Usage
 
-Template usage depends on the version for the template.
+Template usage depends on the version of the template.
 
-## Text File
+## Text file
 
 To use this version, display the file in Raw mode, copy all the text, and then paste it into the lab profile instructions.
 
-## Lab manual export.
+## Lab manual export
 To use the export version of the templates, download the files and import them into a lab profile you have created. 
 
 ### IMPORTANT
