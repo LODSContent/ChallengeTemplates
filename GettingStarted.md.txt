@@ -1,0 +1,109 @@
+> [challenge-name]: Getting Started with [Title]
+
+ !INSTRUCTIONS[](https://raw.githubusercontent.com/LODSContent/Public-Templates/master/General/itpc-getting-started.md)
+
+
+> [overview]: This hands-on lab has been designed to help you acquire and verify the baseline skills and knowledge you need to successfully complete the [YourChallengeSeriesName] challenge series.
+
+===
+# Introduction
+The introduction contains an abstract, which is written in a prescribed style.
+>- First, you will xxx. Next, you will xxx. Finally, you will xxx.
+>- First, you will xxx, and then you will xxx. Next, you will xxx, and then you will xxx. Finally, you will xxx, and then you will xxx.  
+
+If appropriate, write a second paragraph that describes any key features of the technology that is featured in the lab.
+
+####Example
+In this lab, you will configure an Active Directory&reg; infrastructure. First, you will promote a server to a read-only domain controller, and then you will configure a domain-wide password replication policy.  Next, you will configure multiple user principal name suffixes, and then you will assign them to users. Finally, you will configure an Active Directory backup, and then you will restore deleted objects to Active Directory.
+
+In this lab, you will configure a Windows&reg; Server core network. First, you will verify IPv4 connectivity and DNS resolution, and then you will establish Dynamic Host Configuration Protocol (DHCP) failover. Next, you will configure a Domain Name System (DNS) secondary zone, and then you will configure Web Application Proxy (WAP). Finally, you will configure a virtual private network (VPN) connection, and then you will configure a Distributed File System (DFS) namespace and DFS replication.
+
+### Understand your environment
+Provide a brief summary of the virtual machines or the online services that will be used in the lab. 
+
+Example:
+
+In this lab, you will use an Azure virtual machine named LabVM that has been provisioned for you. 
+
+In this lab, you will use a Windows Server 2016 domain controller named DC01 and a Windows Server 2019 server named SVR01.
+
+===
+
+# Task heading
+
+Abstract. Each task must have a one sentence abstract that summarizes what users will do in the task. Use the following format:
+In this task, you will xxx, and then you will xxx.
+
+1. [] Write steps by using a where / what / why format. 
+
+    >[!knowledge] If users needs to move to a different part of the screen, tell them *where* they need to start. This part of the structure is optional. If the reason for the action is not obvious, tell users *why* they are performing the action. 
+
+1. [] On the DemoVM blade, select **Connect**, and then download the RDP file.
+
+1. [] Select **Mount Storage** to mount the storage using the file share named shell.
+
+1. [] In the Cloud Shell region, select **East US**.
+
+===
+
+# Task heading
+
+Abstract
+
+1. []
+
+1. [] 
+
+===
+
+# Exercise heading
+If you have a group of related tasks, you may want to group them into an exercise. Provide an exercise heading that reflects the overall goal of all the related tasks, and then write an abstract.
+
+In this exercise, you will [state the overall goal of the exercise]. First, you will [state the outcome of the first task]. Next, you will [state the outcome of the second task]. Finally, you will [state the outcome of the third task], and then you will [state the outcome of the fourth task, as appropriate].
+
+## Task heading
+
+In this task, you will [state what users will do in this task].
+
+1. [] Note the use of heading two in this heading. Because it is placed on the same page as the exercise heading and abstract, you will use the heading two format instead of the heading one format.
+
+1. [ ] xxx
+
+    >[!note] When using notes, tips, alerts, knowledge blocks, and images, indent the item four spaces - or press Tab once. This will preserve the auto numbering in the task.
+
+===
+
+## Task heading
+
+In this task, you will ...
+
+1. [] 
+
+1. [] 
+
+===
+
+# Summary
+
+Congratulations, you have completed the **Getting Started with [your lab topic]** lab.
+
+You have accomplished the following:
+
+- Task one summary.
+- Task two summary.
+
+#### Summary examples
+The following examples show you how to write a summary point. You can delete the examples after reviewing the writing style.
+- Managed Active Directory group membership by using Group Policy.
+- Enumerated Active Directory group membership by using Windows PowerShell.
+- Created Office 365 user accounts.
+- Created an Office 365 group.
+
+#Think you know it? Prove it!
+
+Now, validate your skills and knowledge by completing the [PowerShell ITPro challenge series](include the URL for your challenge series).
+
+##Your feedback is important!
+As you end your lab, please take a few minutes to complete the short survey that will appear in the next window.
+
+Alternatively, you may provide your feedback directly to <a href="mailto:challengefeedback@learnondemandsystems.com?Subject=LODS%20Challenge%20Feedback%20for%20Lab%20@lab.LabProfile.Id" target="_top">challengefeedback@learnondemandsystems.com</a>.
