@@ -1,0 +1,83 @@
+<style>
+strong {
+    color: black;
+}
+.help a {
+    text-decoration: underline;
+    text-decoration-style: wavy;  
+    text-decoration-color: red;
+    font-weight: bold;
+}
+</style>
+
+!INSTRUCTIONS[expert](https://raw.githubusercontent.com/LODSContent/Public-Templates/master/General/itpc-expert.md)
+
+> [challenge-name]: Can You [Your Challenge Title]?
+
+
+>[overview]:
+>
+>## Understand the scenario
+>
+>#####Example
+>You are a Microsoft&reg; 365 administrator. You need to run a pilot project to refine Office 365 management processes and practices. First, you will create pilot user accounts, assign licenses, and configure security groups by using bulk management techniques. Next, you will configure password policies, and then you will manage roles. Finally, you will configure email compliance by using Exchange Online, and then you will create a new communication site by using SharePoint Online.
+>
+> 
+>
+>## Understand your environment
+>
+>#####Example
+>In this challenge, you will use an Office 365 E5 tenant that you created in the **Provision an Office 365 E5 Trial Subscription** setup lab. You will need the credentials and the tenant domain you created in that lab for this challenge.
+
+===
+# Task 1
+ - Step one.
+
+ - Step two.
+
+===
+# Task 2
+ - Step one.
+
+ - Step two.
+
+===
+#Challenge validation
+
+When you are confident that you have met all the requirements for the challenge, select **Submit**. Your challenge will be evaluated automatically.
+
+> [!ALERT] Once you select **Submit**, you will not be able to return to this challenge.
+
+[Place your script variables here.] 
+@lab.Activity(YourFirstCheck)
+@lab.Activity(YourSecondCheck)
+
+
+# Summary
+
+Congratulations, you have completed the **Can You Manage Office 365?** challenge.
+
+You have accomplished the following:
+
+- Task one summary.
+- Task two summary.
+
+#### Summary examples - please delete the samples
+- Managed Active Directory group membership by using Group Policy.
+- Enumerated Active Directory group membership by using Windows PowerShell.
+- Created Office 365 user accounts.
+- Created an Office 365 group.
+
+
+## Your feedback is important!
+As you end your challenge, please take a few minutes to complete the short survey that will appear in the next window.
+
+Alternatively, you may provide your feedback directly to <a href="mailto:challengefeedback@learnondemandsystems.com?Subject=LODS%20Challenge%20Feedback%20for%20Lab%20@lab.LabProfile.Id" target="_top">challengefeedback@learnondemandsystems.com</a>.
+
+## Other challenges in this series
+
+- GUIDED CHALLENGE: xxx
+
+- GUIDED CHALLENGE: xxx
+
+- ADVANCED CHALLENGE: xxx
