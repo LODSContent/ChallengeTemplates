@@ -266,7 +266,7 @@ Each step in a hint should use a first level bullet. Because you have a limited 
     >
     ></details>
 
-    ![The collapsed display of a hint](images/avvkqc5j.jpg) 
+    ![The collapsed display of a hint](Images/avvkqc5j.jpg) 
 
     !IMAGE[The expanded display of a hint](x187ghm7.jpg)
 
