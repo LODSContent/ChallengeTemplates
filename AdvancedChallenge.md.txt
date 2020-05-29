@@ -1,3 +1,14 @@
+<!---5/29/2020--->
+
+<!---At the beginning of each challenge, include a comment that contains the initial creation date, all revision dates, and a description of the reason for the revision--->
+
+<!---Advanced challenge definition
+
+An advanced challenge is intended for learners who have a functional knowledge of a product, and who want to test their level of understanding. Each advanced challenge contains a series of 3-6 related tasks that focus on real-world skills. Each advanced challenge should take an average learner 45 minutes to complete, on average.
+
+For learners who need some guidance on how to perform a task, each task contains a hint in the form of a URL that takes learners to the product documentation where they can get more information on how to complete the task. Each task is scored so that learners can determine whether or not they completed the task successfully. Each task can be repeated, giving learners the opportunity to test their skills and correct any errors they made while performing a task. 
+--->
+
 <style>
 strong {
     color: black;
@@ -14,31 +25,118 @@ strong {
 
 > [challenge-name]:Can You [Your Challenge Title]?
 
+<!--- An advanced or expert challenge title is phrased in the form of a question and begins with the words “Can You …?” The title should reflect the key skills being tested in the challenge.
+
+Examples
+Can You Maintain an Active Directory Domain Services Database?
+Can You Implement and Manage Group Policy?
+Can You Establish Connectivity for Internet-Based Clients?
+Can You Configure a Resilient Enterprise That Has Mobile Clients?
+--->
 
 >[overview]:
 >
 >## Understand the scenario
 >
->#### Example
-You are a Microsoft&reg; 365 administrator. You need to manage multiple Office 365 users. First, you will create a security group. Next, you will use a comma-separated values (CSV) file to manage multiple users. Finally, you will add multiple users to a security group by using a single action.
+>You are a xxx. You need to xxx. First, you will xxx, and then you will xxx. Next, you will xxx, and then you will xxx. Finally, you will xxx, and then you will xxx.
 >
 >## Understand your environment
->In this challenge, you will use a virtual machine named DC01 that runs Windows&reg; Server 2019.
+>You will be using xxx.
+
+<!---The Understand the scenario section 
+The challenge overview appears on the title page, under the challenge title, and contains a description of the challenge scenario and a summary of the challenge environment. Learners must select the overview in order to display the contents, so some learners may not read this information.
+
+Each challenge contains an introductory paragraph that defines the job role, the requirements of the challenge, and the tasks the learner will perform. 
+
+The opening sentence should state a possible job role associated with the tasks in the challenge. This is your opportunity to add some context to the challenge. 
+
+Opening sentence examples
+-	You are a database administrator.
+-	You are a systems administrator.
+-	You are a Microsoft 365 administrator.
+
+The second sentence should be in the form of a requirements statement that describes the overall goal of the challenge. Use the phrase “You need to…” to begin your requirements statement. The requirements statement should relate to the title.
+
+Do not use phrases like:
+- Your boss has tasked you with…
+- The CIO wants you to…
+- You have been asked to…
+
+Instead, use the phrase "you need to" to introduce the main requirement of the challenge.
+
+Requirements statement examples
+-	You need to configure storage for files that are used by a web application.
+-	You need to create a new test virtual machine that is based on an existing managed disk.
+-	You need to add users to your organization’s Microsoft 365 tenant.
+
+The outcome, often referred to as the abstract, states what a learner will do in the challenge. You write the abstract by using the following style: 
+-	“First, you will…Next, you will…Finally, you will….”
+-	“First, you will…, and then you will …. Next, you will…, and then you will…. Finally, you will…, and then you will….
+
+This structure is mandatory and works well for three to six tasks. It is an easy fit for a challenge, since the average challenge contains three to six tasks.
+
+Take a look at your headings and your summary points, and then turn these into sentences. After you have completed your challenge, make sure that you review your overview to ensure that the it still reflects the final tasks in the challenge.
+
+Abstract examples
+-	First, you will create accounts for users, and then you will assign licenses to the accounts. Next, you will create a security group, and then you will add the users to the group. Finally, you will remove a user’s license.
+-	First, you will create an S3 bucket, and then you will enable versioning. Next, you will configure the bucket as a website that allows public access. Finally, you will upload the website files.
+-	First, you will define a hub site by using the SharePoint admin center. Next, you will create a new site collection, and then you will associate it with the new hub. Finally, you will modify the default site permissions.
+The following text is an example of an abstract (scenario) that uses the correct format 
+
+Complete understand the scenario example
+
+You are a Microsoft&reg; 365 administrator. You need to manage multiple Office 365 users. First, you will create a security group. Next, you will use a comma-separated values (CSV) file to manage multiple users. Finally, you will add multiple users to a security group by using a single action.
+
+--->
+
+<!---The Understand your environment section should contain one or two sentences that describe the technical environment used in the challenge. Keep this simple!
+
+Use the phrase “You will be using …” when writing about the environment.
+
+- In a challenge that uses virtual machines, state the names of the virtual machines and, if needed, the operating systems installed on the virtual machines.
+- In a challenge that uses services, state the services that have been created by using a script. Only include services that the learner will need to use to complete the challenge.
+
+Understand your environment samples
+You will be using a virtual machine named DC01 that runs Windows&reg; Server 2019.
+You will be using a pre-configured Azure resource group named @lab.CloudResourceGroup(RG1).Name.
+You will be using a Windows Server 2016 domain controller named DC01.
+
+--->
 
 ====
 # Task heading
 
 - Task step
 
+<!--- **IMPORTANT** - Provide step-by-step instructions and any PowerShell or Bash scripts that are needed. This tells the tech reviewer what you intended, and saves a LOT of time during the review. We are not testing a tech reviewer's ability to write the appropriate script. We are verifying that your instructions provide enough information to complete the step and that the steps in a task can be verified by your scoring script.
+--->
+
 - Task step
 
-##### Examples
+<!--- Writing task steps in an advanced challenge
+
+In an advanced challenge, each task will have at least one step that a learner must perform in order to complete the task. In each instructional step, you tell the learner what to do, and then provide any required input. Use the same writing style for all types of challenges; however, advanced challenges should not contain the details of which feature to use unless this is a requirement.
+
+Examples
+- Assign the **Global admin** role to **Amy Rusko**.
+- Configure the mailbox for **Lori Penor** to send an Out of Office message for both internal and external users.
+- Create a SQL database named ++db@lab.LabInstance.Id++ on a new logical server named ++sql@lab.LabInstance.Id++, and then configure a Server admin login named ++adminuser++ using ++Passw0rd++ as the password.
+
+--->
+
+<!--- Writing hints in an advanced challenge
+
+In an advanced challenge, use an expandable hint to provide more information on how to perform the action in a step; however, unlike guided challenges, the hint should be in the form of a URL that contains information on how to perform the required action.
+
+**IMPORTANT** Only use links to official product documentation.
+
+Examples
 - Create a security group named +++Auckland Staff+++.
 
     >[!HINT]<details>
     ><summary>Expand this hint for guidance on creating a security group.</summary>
     >
-    >Review the documentation on [creating a security group](https://docs.microsoft.com/en-us/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide).
+    >- Review the documentation on [creating a security group](https://docs.microsoft.com/en-us/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide).
     >
     ></details>
 
@@ -47,19 +145,68 @@ You are a Microsoft&reg; 365 administrator. You need to manage multiple Office 3
     >[!HINT]<details>
     ><summary>Expand this hint for guidance on adding users to a security group.</summary>
     >
-    >Review the following two methods of adding multiple users to a security group: 
+    >- Review the following two methods of adding multiple users to a security group: 
     >
-    >- [Microsoft 365 admin center](https://docs.microsoft.com/en-us/office365/admin/create-groups/add-or-remove-members-from-groups?view=o365-worldwide)
+    >   [Microsoft 365 admin center](https://docs.microsoft.com/en-us/office365/admin/create-groups/add-or-remove-members-from-groups?view=o365-worldwide)
     >
-    >- [Office 365 PowerShell](https://docs.microsoft.com/en-us/powershell/module/msonline/add-msolgroupmember?view=azureadps-1.0)
+    >   [Office 365 PowerShell](https://docs.microsoft.com/en-us/powershell/module/msonline/add-msolgroupmember?view=azureadps-1.0)
     >
     ></details>
 
+- Record the name of the data loss prevention (DLP) policy you created in the DLP Name text box.
+
+    **DLP Name**     
+    @lab.TextBox(DLPRuleName)
+
+    >[!HINT]<details>
+    ><summary>Expand this hint for guidance on DLP templates.</summary>
+    >
+    >- Review the documentation on:
+    >
+    >   [Using a DLP policy template](https://docs.microsoft.com/en-us/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention"The DLP policy template documentation").
+    >
+    >   [DLP policy templates supplied in Exchange](https://docs.microsoft.com/en-us/exchange/security-and-compliance/data-loss-prevention/dlp-policy-templates"DLP policy templates supplied in Exchange").
+    >
+    ></details>
+
+--->
+
+<!---Best practices for writing challenge tasks 
+- Create a heading that calls out the purpose of the task. 
+- If your task heading contains the word *and*, review the objectives. You may be trying to combine two tasks into one.
+- If your task contains a single step, and both the step and the heading use almost identical language, either your task is too granular, or your step is too high level.
+- Write steps that tell the learner the action to take and the specific requirements to implement, but not how to perform the action.
+- Use a hint in an advanced challenge to provide guidance on how to perform the action.
+- Use Type Text or Copy to clipboard for any values that a learner must type.
+--->
+
 ##Check your work
 
-[Place your script variables here.] 
+<!--- Place your script variables here.--->
+
 @lab.Activity(YourFirstCheck)
 
+<!--- Configure a script in the IDLx
+
+The check your work section in an advanced challenge should contain at least one activity script that will verify whether or not a learner has successfully performed the configuration required in the task. The script should verify that the key outcome of the task was completed, and may also verify additional configuration changes required by the task.
+
+Before handing off your challenge, launch the challenge, run each script **without performing any of the steps** to ensure that the incorrect answer feedback response is displayed, run the challenge, and then ensure that the correct answer feedback response is displayed.
+
+In the automated activity settings, select the **Display Scripts as Task List** check box, select the Custom Evaluation Button Text check box, specify a value of **Verify**, and then select the **Allow retries** check box.
+
+Each script contains three text elements:
+-	**Text** — Contains the verification label that describes what the script verifies.
+-	**Correct Answer Feedback** — Contains the success message to display if the learner performed the configuration correctly.
+-	**Incorrect Answer Feedback** – Contains feedback to let the learner know what still needs to be configured.
+
+The incorrect answer feedback should be specific enough that the learner can determine what was missed.
+
+Examples
+-	Text: Verify that you have promoted DC3 to a domain controller in the Contoso.com domain.
+-	Correct Answer Feedback: Congratulations! You have promoted DC3 to a domain controller in the Contoso.com domain.
+-	Incorrect Answer Feedback: You still need to promote DC3 to a domain controller in the Contoso.com domain.
+
+--->
 ===
 
 # Summary
@@ -71,11 +218,12 @@ You have accomplished the following:
 - Task one summary.
 - Task two summary.
 
-#### Summary examples - please delete the samples
+<!--- Summary examples
 - Managed Active Directory group membership by using Group Policy.
 - Enumerated Active Directory group membership by using Windows PowerShell.
 - Created Office 365 user accounts.
 - Created an Office 365 group.
+--->
 
 ##Your feedback is important!  
 As you end your challenge, please take a few minutes to complete the short survey that will appear in the next window.
@@ -84,7 +232,8 @@ Alternatively, you may provide your feedback directly to <a href="mailto:challen
 
 ## Other challenges in this series
 
->This section is mandatory. Include any challenges in the series that relate to this challenge. Replace the sample titles, and delete this instruction paragraph. Leave one blank line between each challenge title.
+<!---This section is mandatory. Include any challenges in the series that relate to this challenge. Replace the sample titles. Leave one blank line between each challenge title.--->
 
 - GUIDED CHALLENGE: xxxx
+
 - ADVANCED CHALLENGE: Can You Create and Manage Active Directory Users and Groups?
