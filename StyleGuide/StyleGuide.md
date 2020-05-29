@@ -419,7 +419,7 @@ The incorrect answer feedback should be specific enough that the learner can det
 
 Select the **Display Scripts as Task List** check box, select the Custom Evaluation Button Text check box, set the button text to **Verify**, and then select the **Allow retries** check box.
 
-!IMAGE[Script display options](k4ho0vji.jpg)
+!IMAGE[Script display options](images/k4ho0vji.jpg)
 
 #### Examples
 -	Text: Verify that you have promoted DC3 to a domain controller in the Contoso.com domain.
