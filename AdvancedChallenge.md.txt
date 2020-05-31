@@ -1,6 +1,6 @@
-<!---5/29/2020--->
+<!---5/31/2020--->
 
-<!---At the beginning of each challenge, include a comment that contains the initial creation date, all revision dates, and a description of the reason for the revision--->
+<!---At the beginning of each challenge, include a comment that contains the initial creation date, all revision dates, and a description of the reason for the revision.--->
 
 <!---Advanced challenge definition
 
@@ -83,7 +83,7 @@ Abstract examples
 -	First, you will define a hub site by using the SharePoint admin center. Next, you will create a new site collection, and then you will associate it with the new hub. Finally, you will modify the default site permissions.
 The following text is an example of an abstract (scenario) that uses the correct format 
 
-Complete understand the scenario example
+Completed understand the scenario example
 
 You are a Microsoft&reg; 365 administrator. You need to manage multiple Office 365 users. First, you will create a security group. Next, you will use a comma-separated values (CSV) file to manage multiple users. Finally, you will add multiple users to a security group by using a single action.
 
@@ -104,14 +104,14 @@ You will be using a Windows Server 2016 domain controller named DC01.
 --->
 
 ====
-# Task heading
+# Task one heading
 
-- Task step
+- Task step 1. 
 
 <!--- **IMPORTANT** - Provide step-by-step instructions and any PowerShell or Bash scripts that are needed. This tells the tech reviewer what you intended, and saves a LOT of time during the review. We are not testing a tech reviewer's ability to write the appropriate script. We are verifying that your instructions provide enough information to complete the step and that the steps in a task can be verified by your scoring script.
 --->
 
-- Task step
+- Task step 2.
 
 <!--- Writing task steps in an advanced challenge
 
@@ -207,6 +207,19 @@ Examples
 -	Incorrect Answer Feedback: You still need to promote DC3 to a domain controller in the Contoso.com domain.
 
 --->
+
+
+====
+# Task two heading
+
+- Step one.
+
+- Step two.
+
+## Check your work
+
+@lab.Activity(YourSecondCheck)
+
 ===
 
 # Summary
