@@ -1,39 +1,119 @@
-<style>
-strong {
-    color: black;
-}
-.help a {
-    text-decoration: underline;
-    text-decoration-style: wavy;  
-    text-decoration-color: red;
-    font-weight: bold;
-}
-</style>
+<!---5/31/2020--->
+
+<!---At the beginning of each challenge, include a comment that contains the initial creation date, all revision dates, and a description of the reason for the revision.--->
+
+<!---Expert challenge definition
+
+An expert challenge is intended for learners who want to test themselves to find gaps in knowledge and skill. This is a true, activity-based assessment. Each expert challenge contains a series of 3-8 related tasks that focus on real-world skills. Each advanced challenge should take an average learner 60 minutes to complete, on average.
+
+Learners are provided with task-based instructions that contain the input required to complete the task; however, learners are not provided with any information on how to complete the task. Each challenge is scored after all tasks are completed.
+--->
+
 
 !INSTRUCTIONS[expert](https://raw.githubusercontent.com/LODSContent/Public-Templates/master/General/itpc-expert.md)
 
 > [challenge-name]: Can You [Your Challenge Title]?
 
+<!--- An advanced or expert challenge title is phrased in the form of a question and begins with the words “Can You …?” The title should reflect the key skills being tested in the challenge.
+
+Examples
+Can You Maintain an Active Directory Domain Services Database?
+Can You Implement and Manage Group Policy?
+Can You Establish Connectivity for Internet-Based Clients?
+Can You Configure a Resilient Enterprise That Has Mobile Clients?
+--->
 
 >[overview]:
 >
 >## Understand the scenario
 >
->#####Example
->You are a Microsoft&reg; 365 administrator. You need to run a pilot project to refine Office 365 management processes and practices. First, you will create pilot user accounts, assign licenses, and configure security groups by using bulk management techniques. Next, you will configure password policies, and then you will manage roles. Finally, you will configure email compliance by using Exchange Online, and then you will create a new communication site by using SharePoint Online.
->
+>You are a xxx. You need to xxx. First, you will xxx, and then you will xxx. Next, you will xxx, and then you will xxx. Finally, you will xxx, and then you will xxx.
 > 
 >
 >## Understand your environment
 >
->#####Example
->In this challenge, you will use an Office 365 E5 tenant that you created in the **Provision an Office 365 E5 Trial Subscription** setup lab. You will need the credentials and the tenant domain you created in that lab for this challenge.
+>You will be using xxx.
+
+<!---The Understand the scenario section 
+The challenge overview appears on the title page, under the challenge title, and contains a description of the challenge scenario and a summary of the challenge environment. Learners must select the overview in order to display the contents, so some learners may not read this information.
+
+Each challenge contains an introductory paragraph that defines the job role, the requirements of the challenge, and the tasks the learner will perform. 
+
+The opening sentence should state a possible job role associated with the tasks in the challenge. This is your opportunity to add some context to the challenge. 
+
+Opening sentence examples
+-	You are a database administrator.
+-	You are a systems administrator.
+-	You are a Microsoft 365 administrator.
+
+The second sentence should be in the form of a requirements statement that describes the overall goal of the challenge. Use the phrase “You need to…” to begin your requirements statement. The requirements statement should relate to the title.
+
+Do not use phrases like:
+- Your boss has tasked you with…
+- The CIO wants you to…
+- You have been asked to…
+
+Instead, use the phrase "you need to" to introduce the main requirement of the challenge.
+
+Requirements statement examples
+-	You need to configure storage for files that are used by a web application.
+-	You need to create a new test virtual machine that is based on an existing managed disk.
+-	You need to add users to your organization’s Microsoft 365 tenant.
+
+The outcome, often referred to as the abstract, states what a learner will do in the challenge. You write the abstract by using the following style: 
+-	“First, you will…Next, you will…Finally, you will….”
+-	“First, you will…, and then you will …. Next, you will…, and then you will…. Finally, you will…, and then you will….
+
+This structure is mandatory and works well for three to six tasks. It is an easy fit for a challenge, since the average challenge contains three to six tasks.
+
+Take a look at your headings and your summary points, and then turn these into sentences. After you have completed your challenge, make sure that you review your overview to ensure that the it still reflects the final tasks in the challenge.
+
+Abstract examples
+-	First, you will create accounts for users, and then you will assign licenses to the accounts. Next, you will create a security group, and then you will add the users to the group. Finally, you will remove a user’s license.
+-	First, you will create an S3 bucket, and then you will enable versioning. Next, you will configure the bucket as a website that allows public access. Finally, you will upload the website files.
+-	First, you will define a hub site by using the SharePoint admin center. Next, you will create a new site collection, and then you will associate it with the new hub. Finally, you will modify the default site permissions.
+The following text is an example of an abstract (scenario) that uses the correct format 
+
+Complete understand the scenario example
+
+You are a Microsoft&reg; 365 administrator. You need to run a pilot project to refine Office 365 management processes and practices. First, you will create pilot user accounts, assign licenses, and configure security groups by using bulk management techniques. Next, you will configure password policies, and then you will manage roles. Finally, you will configure email compliance by using Exchange Online, and then you will create a new communication site by using SharePoint Online.
+
+--->
+
+<!---The Understand your environment section should contain one or two sentences that describe the technical environment used in the challenge. Keep this simple!
+
+Use the phrase “You will be using …” when writing about the environment.
+
+- In a challenge that uses virtual machines, state the names of the virtual machines and, if needed, the operating systems installed on the virtual machines.
+- In a challenge that uses services, state the services that have been created by using a script. Only include services that the learner will need to use to complete the challenge.
+
+Understand your environment samples
+You will be using a virtual machine named DC01 that runs Windows&reg; Server 2019.
+You will be using a pre-configured Azure resource group named @lab.CloudResourceGroup(RG1).Name.
+You will be using a Windows Server 2016 domain controller named DC01.
+
+--->
 
 ===
 # Task 1
  - Step one.
 
  - Step two.
+
+<!--- **IMPORTANT** - Provide step-by-step instructions and any PowerShell or Bash scripts that are needed. This tells the tech reviewer what you intended, and saves a LOT of time during the review. We are not testing a tech reviewer's ability to write the appropriate script. We are verifying that your instructions provide enough information to complete the step and that the steps in a task can be verified by your scoring script.
+
+--->
+
+<!--- Writing task steps in an advanced challenge
+
+In an advanced challenge, each task will have at least one step that a learner must perform in order to complete the task. In each instructional step, you tell the learner what to do, and then provide any required input. Use the same writing style for all types of challenges; however, advanced challenges should not contain the details of which feature to use unless this is a requirement.
+
+Examples
+- Assign the **Global admin** role to **Amy Rusko**.
+- Configure the mailbox for **Lori Penor** to send an Out of Office message for both internal and external users.
+- Create a SQL database named ++db@lab.LabInstance.Id++ on a new logical server named ++sql@lab.LabInstance.Id++, and then configure a Server admin login named ++adminuser++ using ++Passw0rd++ as the password.
+
+--->
 
 ===
 # Task 2
@@ -48,26 +128,45 @@ When you are confident that you have met all the requirements for the challenge,
 
 > [!ALERT] Once you select **Submit**, you will not be able to return to this challenge.
 
-[Place your script variables here.] 
+<!--- Place your script variables here.--->
+
 @lab.Activity(YourFirstCheck)
+
 @lab.Activity(YourSecondCheck)
 
+<!---Configure scoring
+
+There are no check your work sections in an expert challenge. Instead, your challenge should have at least 10 individual scripts that will verify whether or not a learner has successfully performed the configuration required in the challenge. Individual related scripts can be combined into an activity. The script should verify that the key outcome of each task was completed, and may also verify additional configuration changes required by the tasks.
+
+Your scripts do not require feedback, but should contain a brief description in the Text field. This will identify each script when you are testing. 
+
+The scripts in an expert challenge are scored. To configure scoring, on the Activities page, turn on the **Enable Scoring** toggle, and then in each individual activity, ensure that **Scored** is selected.
+
+Configure a score value for each script. Try to maintain a fairly even weighting. Once you have added the score values, on the Activities page, enter the passing score. The total score on the Activities page should be the total of all possible activity score values. If the total isn't displayed correctly, check the markdown. You likely have a script value that was added more than once in the markdown, or you missed adding a script variable. 
+--->
+
+<!---Test your activities
+To test the scripts, in the automated activity settings, leave **Scoring** selected, select the **Display Scripts as Task List** check box, and then select the **Allow retries** check box. Ensure that you added each script variable in the Challenge validation section in the markdown.
+
+Before handing off your challenge, launch the challenge, run each script **without performing any of the steps** to ensure that the incorrect answer feedback response is displayed, run the challenge, and then ensure that the correct answer feedback response is displayed. If all scripts run successfully, select **Submit**, and then ensure that your score is displayed correctly.
+--->
 
 # Summary
 
-Congratulations, you have completed the **Can You Manage Office 365?** challenge.
+Congratulations, you have completed the **[Your Challenge Title]** challenge.
 
 You have accomplished the following:
 
 - Task one summary.
 - Task two summary.
 
-#### Summary examples - please delete the samples
+
+<!--- Summary examples
 - Managed Active Directory group membership by using Group Policy.
 - Enumerated Active Directory group membership by using Windows PowerShell.
 - Created Office 365 user accounts.
 - Created an Office 365 group.
-
+--->
 
 ## Your feedback is important!
 As you end your challenge, please take a few minutes to complete the short survey that will appear in the next window.
