@@ -1,16 +1,11 @@
 # Challenge Template Files
 
-This repo contains templates for the different types of challenges:
+This repo contains templates for the different types of lab challenges:
 
   - Guided
   - Advanced
   - Expert
   - Getting Started
-
-Each template has two versions:
-
-  - Text file (.txt)
-  - Lab manual export (.zip)
 
 # Usage
 
