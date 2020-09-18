@@ -80,7 +80,7 @@ This guide will provide you with
 
 
 ===
-# Challenge definitions
+# Challenge definitions {definitions}
 Each challenge series contains four different types of content.
 
 ### Getting started lab
