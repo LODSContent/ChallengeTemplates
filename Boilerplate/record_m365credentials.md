@@ -7,7 +7,7 @@
     **Domain name**     
     @lab.TextBox(TenantName)
 
-    >[!Note] For example, if your unique domain name is *contoso123456*.onmicrosoft.com, enter **contoso123456.onmicrosoft.com**.
+    >[!Note] For example, if your unique domain name is *Hexelo123456*.onmicrosoft.com, enter **Hexelo123456.onmicrosoft.com**.
 
 - Record the password for the Microsoft 365 tenant administrator, Microsoft365Admin@@lab.Variable(TenantName), in the following text box:
 
