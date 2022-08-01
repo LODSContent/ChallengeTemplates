@@ -2,7 +2,7 @@
 
 >[!ALERT] This challenge lab is part of a series. To complete this challenge lab, you will need the domain name and credentials of the Microsoft 365 trial account that you created in the **Provision an Office 365 E5 Trial Subscription** lab.
 
-- Record the unique onmicrosoft.com domain of the Microsoft 365 tenant in the the following text box: 
+- Record the unique onmicrosoft.com domain of the Microsoft 365 tenant in the following text box: 
 
     **Domain name**     
     @lab.TextBox(TenantName)
